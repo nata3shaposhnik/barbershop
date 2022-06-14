@@ -1,0 +1,135 @@
+:root {
+  /* fonts */
+  --main-font: 'Open Sans';
+  --secondary-font: 'Raleway';
+
+  /* text colors */
+  --acent-txt-color: #ff6c00;
+  --main-light-theme: #303030;
+  --main-dark-theme: #ffffff;
+
+  /* bg-colors */
+
+  /* oters */
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  background-color: transparent;
+
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--acent-txt-color);
+  color: var(--main-dark-theme);
+}
+
+.btn-mode-light {
+  color: var(--main-light-theme);
+}
+
+.btn-mode-dark {
+  color: var(--main-dark-theme);
+}
+
+.social-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+
+  color: var(--main-light-theme);
+}
+
+.social-link:hover,
+.social-link:focus {
+  color: var(--acent-txt-color);
+}
+
+.uppertitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.uppertitle-mode-light {
+  color: var(--main-light-theme);
+}
+.uppertitle-mode-dark {
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.main-title {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+
+  color: var(--main-dark-theme);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+}
+
+.section-title-mode-light {
+  color: var(--main-light-theme);
+}
+.section-title-mode-dark {
+  color: var(--main-dark-theme);
+}
+
+/* header section  */
+.page-header {
+  background-color: #191c26;
+}
+
+.header-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--main-dark-theme);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--acent-txt-color);
+}
+
+.header-contact {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: var(--main-dark-theme);
+}
